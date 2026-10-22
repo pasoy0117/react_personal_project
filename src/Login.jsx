@@ -27,7 +27,7 @@ export default function Login() {
     localStorage.setItem("currentUser", JSON.stringify(savedUser));
     
     setCurrentUser(savedUser);
-    alert(`${savedUser.id}님, 로그인을 환영합니다! ♥`);
+    alert(`${savedUser.name}님, 로그인을 환영합니다! ♥`);
     navigate("/post/list");
   };
 
