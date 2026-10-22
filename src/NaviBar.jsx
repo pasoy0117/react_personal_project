@@ -27,8 +27,8 @@ export default function NaviBar() {
           to={isLoggedIn ? "/post/list" : "/"} 
           className="relative px-5 py-2 rounded-full border-2 border-white/60 shadow-md font-mono font-black text-white text-sm tracking-wider transition-all hover:scale-105 active:scale-95"
           style={{ 
-            backgroundColor: '#e77882', 
-            backgroundImage: 'radial-gradient(#ffffff 15%, transparent 16%)', 
+            backgroundColor: '#e77882',
+            backgroundImage: 'radial-gradient(#ffffff 15%, transparent 15%)', 
             backgroundSize: '10px 10px' 
           }}
         >
@@ -40,7 +40,7 @@ export default function NaviBar() {
         <div className="flex items-center gap-2">
           {isLoggedIn ? (
             <>
-              {/* 🌟 로그인 상태일 때만 글목록, 글쓰기가 활성화되어 렌더링됩니다 */}
+              
               <Link
                 to="/post/list"
                 className={`flex items-center gap-1 px-4 py-2 text-xs font-bold rounded-full transition-all border ${
@@ -75,7 +75,7 @@ export default function NaviBar() {
             </>
           ) : (
             <>
-              {/* 로그아웃(비로그인) 상태일 때 보여줄 메뉴 */}
+              
               <Link
                 to="/"
                 className={`flex items-center gap-1 px-4 py-2 text-xs font-bold rounded-full transition-all border ${
