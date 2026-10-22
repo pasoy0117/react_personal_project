@@ -104,10 +104,7 @@ export default function Login() {
           </form>
 
           {/* 하단 링크 */}
-          <div className="flex justify-between w-full mt-6 text-xs text-red-700/80 font-medium px-2">
-            <button type="button" className="hover:underline hover:text-red-900 transition-colors">
-              아이디/비밀번호 찾기
-            </button>
+          <div className="flex justify-center w-full mt-6 text-xs text-red-700/80 font-medium px-2">
             <Link to="/signup" className="hover:underline hover:text-red-900 transition-colors flex items-center gap-0.5">
               회원가입 <span className="text-red-500 text-[10px]">♥</span>
             </Link>
