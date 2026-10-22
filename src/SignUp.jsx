@@ -156,7 +156,7 @@ export default function SignUp() {
 
           {/* 하단 링크 */}
           <div className="flex justify-center w-full mt-6 text-xs text-red-700/80 font-medium px-2">
-            <Link to="/login" className="hover:underline hover:text-red-900 transition-colors">
+            <Link to="/" className="hover:underline hover:text-red-900 transition-colors">
               이미 계정이 있으신가요? 로그인하기 <span className="text-red-500 text-[10px]">♥</span>
             </Link>
           </div>
